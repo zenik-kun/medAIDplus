@@ -28,6 +28,18 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 40vw;
+            margin-left: auto;
+            margin-right: auto;
+            /* top | right | bottom | left */
+            padding: 0px 75px 0 75px;    
+        }
+    </style>
 </head>
 
 <body>
@@ -36,22 +48,23 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html"> medAID+</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="blood.html" class="nav-link">Blood Donation</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <!-- <li class="nav-item"><a href="posts.html" class="nav-link">Blogs</a></li> -->
-            <!-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
-            <li class="nav-item"><a href="profile.html" class="nav-link"><span>Profile</span></a></li>
-            <!-- <li class="nav-item"><a href="login.html" class="nav-link"><span>Login</span></a></li> -->
-            <li class="nav-item cta"><a href="login.html" class="nav-link"><span>Login / Sign up</span></a></li>
-        </ul>
-    </div>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="blood.html" class="nav-link">Blood Donation</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <!-- <li class="nav-item"><a href="posts.html" class="nav-link">Blogs</a></li> -->
+                    <!-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
+                    <li class="nav-item"><a href="profile.html" class="nav-link"><span>Profile</span></a></li>
+                    <!-- <li class="nav-item"><a href="login.html" class="nav-link"><span>Login</span></a></li> -->
+                    <li class="nav-item cta"><a href="login.html" class="nav-link"><span>Login / Sign up</span></a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!-- END nav -->
@@ -61,12 +74,20 @@
         <div class="overlay"></div>
         <div id="particles-js"></div>
         <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+            <div class="row no-gutters slider-text align-items-center justify-content-center"
+                data-scrollax-parent="true">
                 <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
                     <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                        <strong> Donate And Save Lives</strong></h1>
-                    <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                        <a href="contact.html" class="btn btn-primary btn-outline-white px-5 py-3">Get in touch</a></p>
+                        <strong> Blood Donation</strong>
+                    </h1>
+                    <div class="flex">
+                        <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+                            <a href="contact.html" class="btn btn-primary btn-outline-white px-5 py-3">Donate</a>
+                        </p>
+                        <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+                            <a href="contact.html" class="btn btn-primary btn-outline-white px-5 py-3">Find Donors</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,7 +101,8 @@
                 <div class="col-md-6 text-center heading-section ftco-animate">
                     <span class="subheading">Our Services</span>
                     <h2 class="mb-4">Blood Donation, Medicine Availibility and Medical Equipments</h2>
-                    <p>Tap to save, in every way, Blood, medicine, equipment array. Health's in your hands, every day.</p>
+                    <p>Tap to save, in every way, Blood, medicine, equipment array. Health's in your hands, every day.
+                    </p>
                 </div>
             </div>
             <div class="row">
@@ -92,7 +114,8 @@
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">What we do ?</h3>
-                            <p>We connect blood donors with recipients, without any intermediary such as blood banks, for an efficient and seamless process.</p>
+                            <p>We connect blood donors with recipients, without any intermediary such as blood banks,
+                                for an efficient and seamless process.</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +127,8 @@
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Network</h3>
-                            <p><b>medAID+</b> is one of several community organizations working together as a network that responds to emergencies in an efficient manner.</p>
+                            <p><b>medAID+</b> is one of several community organizations working together as a network
+                                that responds to emergencies in an efficient manner.</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +139,8 @@
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Innovative</h3>
-                            <p>Savelife is one of several community organizations working together as a network that responds to emergencies in an efficient manner.</p>
+                            <p>Savelife is one of several community organizations working together as a network that
+                                responds to emergencies in an efficient manner.</p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +154,8 @@
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Save Life</h3>
-                            <p>We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !</p>
+                            <p>We are a non profit foundation and our main objective is to make sure that everything is
+                                done to protect vulnerable persons. Help us by making a gift !</p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +169,8 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
                         <h2>Subcribe to our Newsletter</h2>
-                        <p>Health in Your Hands: Donate Blood, Access Medical Supplies! Stay Connected for Vital Updates & Lifesaving Opportunities!</p>
+                        <p>Health in Your Hands: Donate Blood, Access Medical Supplies! Stay Connected for Vital Updates
+                            & Lifesaving Opportunities!</p>
                         <div class="row d-flex justify-content-center mt-5">
                             <div class="col-md-6">
                                 <form action="#" class="subscribe-form">
@@ -166,7 +193,11 @@
                 <div class="col-md-7 text-center heading-section ftco-animate">
                     <span class="subheading">Works</span>
                     <h2 class="mb-4">What We Do?</h2>
-                    <p>We aim at facilitating the exchange of blood, medical supplies, and support services between donors and individuals in need through a centralised platform where users can easily find nearby donors, hospitals, and blood banks based on their specific requirements. Our Vision is to save lives by ensuring timely access to essential medical resources during emergencies and crises.</p>
+                    <p>We aim at facilitating the exchange of blood, medical supplies, and support services between
+                        donors and individuals in need through a centralised platform where users can easily find nearby
+                        donors, hospitals, and blood banks based on their specific requirements. Our Vision is to save
+                        lives by ensuring timely access to essential medical resources during emergencies and crises.
+                    </p>
                 </div>
             </div>
             <!-- <div class="row">
@@ -248,7 +279,7 @@
     </section>
 
     <!-- <section class="ftco-section bg-light"> -->
-        <!-- <div class="container">
+    <!-- <div class="container">
             <div class="row justify-content-center mb-5 pb-5">
                 <div class="col-md-7 text-center heading-section ftco-animate">
                     <span class="subheading">Blog</span>
@@ -310,13 +341,14 @@
     </section> -->
 
     <!--  FOOTER ---------------------------------------------------------------->
-   <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">medAID+</h2>
-                        <p>We solve the problem of medical emergencies by connecting blood donors directly with people in blood need.</p>
+                        <p>We solve the problem of medical emergencies by connecting blood donors directly with people
+                            in blood need.</p>
                     </div>
                 </div>
                 <div class="col-md">
@@ -345,9 +377,14 @@
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                            <li class="ftco-animate"><a target="_blank" href="https://twitter.com/tanishttha"><span class="icon-twitter"></span></a></li>
-                            <li class="ftco-animate"><a target="_blank" href="https://www.facebook.com/ishant.dhankhar.372/"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a target="_blank" href="https://www.instagram.com/ishant_dhankhar26/"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a target="_blank" href="https://twitter.com/tanishttha"><span
+                                        class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a target="_blank"
+                                    href="https://www.facebook.com/ishant.dhankhar.372/"><span
+                                        class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a target="_blank"
+                                    href="https://www.instagram.com/ishant_dhankhar26/"><span
+                                        class="icon-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -365,9 +402,10 @@
 
     <!-- loader -->
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" /></svg></div>
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
 
 
     <script src="js/jquery.min.js"></script>
@@ -386,9 +424,35 @@
     <script src="js/particles.min.js"></script>
     <script src="js/particle.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // Function to scroll to a specific element
+        function scrollToElement(id) {
+            var target = document.getElementById(id);
+            if (target) {
+                var offsetTop = target.offsetTop; // Get the offset top position of the target element
+                // Smooth scrolling animation
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+        function smoothScrollToElement(id) {
+            var target = document.getElementById(id);
+            if (target) {
+                var offsetTop = target.getBoundingClientRect().top + window.pageYOffset; // Get the offset top position of the target element relative to the viewport
+                // Smooth scrolling animation
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
 
 </body>
 
