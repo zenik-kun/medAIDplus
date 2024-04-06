@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -9928,8 +9930,8 @@ h5,
 .navbar-brand {
     font-weight: 700;
     line-height: 1;
-    font-size: 20px;
-    text-transform: uppercase;
+    font-size: 24px;
+    /* text-transform: uppercase; */
 }
 
 .hero-wrap {
