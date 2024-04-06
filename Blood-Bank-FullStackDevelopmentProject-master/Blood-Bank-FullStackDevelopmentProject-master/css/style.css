@@ -1737,16 +1737,16 @@ pre code {
 .table td {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6;
+    border-top: 1px solid black;
 }
 
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
+    border-bottom: 2px solid black;
 }
 
 .table tbody+tbody {
-    border-top: 2px solid #dee2e6;
+    border-top: 2px solid black;
 }
 
 .table .table {
@@ -1759,12 +1759,12 @@ pre code {
 }
 
 .table-bordered {
-    border: 1px solid #dee2e6;
+    border: 1px solid black;
 }
 
 .table-bordered th,
 .table-bordered td {
-    border: 1px solid #dee2e6;
+    border: 1px solid black;
 }
 
 .table-bordered thead th,
@@ -9697,7 +9697,7 @@ body {
     font-size: 16px;
     line-height: 1.8;
     font-weight: 300;
-    color: #8b8b92;
+    color: black;
 }
 
 body.menu-show {
@@ -12112,4 +12112,12 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
+}
+
+
+#example-table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
