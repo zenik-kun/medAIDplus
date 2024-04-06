@@ -332,7 +332,7 @@
                     </div>
                     <br>
                     <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                        <a style="background: linear-gradient(-45deg, #aa1920 0%, #dd8787 100%);" href="contact.html"
+                        <a onclick="smoothScrollToElement('example-table')" style="background: linear-gradient(-45deg, #aa1920 0%, #dd8787 100%);" href="#example-table"
                             class="btn btn-primary btn-outline-white px-5 py-3">Search</a>
                     </p>
                 </div>
@@ -402,7 +402,7 @@
         </div>
     </section>
 
-        <table id="example-table" class="table table-bordered table-hover dataTable dtr-inline" role="grid"
+        <table itemid="target-2" id="example-table" class="table table-bordered table-hover dataTable dtr-inline example-table" role="grid"
             aria-describedby="example-table_info" style="width: 1173px;">
 
             <tbody>
