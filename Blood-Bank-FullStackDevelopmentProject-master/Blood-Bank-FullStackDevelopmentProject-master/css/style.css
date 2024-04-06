@@ -184,6 +184,7 @@ figure {
 img {
     vertical-align: middle;
     border-style: none;
+    height: 150px;
 }
 
 svg:not(:root) {
@@ -4689,6 +4690,7 @@ input[type="button"].btn-block {
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
 }
+
 
 .navbar-expand .navbar-toggler {
     display: none;
@@ -10868,7 +10870,7 @@ textarea.form-control {
 .ftco-footer {
     font-size: 16px;
     background: #da5552;
-    padding: 12em 0 8em 0;
+    padding: 4em 0;
 }
 
 .ftco-footer .ftco-footer-logo {
@@ -11166,7 +11168,7 @@ textarea.form-control {
 
 .ftco-counter {
     background: #e8a9a2;
-    padding: 10em 0;
+    padding: 4em 0;
 }
 
 .ftco-counter .text strong.number {
