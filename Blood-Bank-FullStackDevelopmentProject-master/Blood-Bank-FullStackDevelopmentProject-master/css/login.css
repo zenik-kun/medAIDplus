@@ -14,6 +14,10 @@ html {
     overflow: hidden;
 }
 
+.account-no {
+    text-decoration: underline;
+    margin-top: 4px;
+}
 
 /*---------------------------------------------*/
 
